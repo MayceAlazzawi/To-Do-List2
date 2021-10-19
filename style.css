@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.add-task {
+  width: 100%;
+  
+}
+
+.new-Tasks {
+  height: 25px;
+}
+
+#plus {
+  font-size: 30px;
+  
+}

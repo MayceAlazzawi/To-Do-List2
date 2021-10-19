@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--[if lt IE 9]>
+    <script src='/js/html5shiv.min.js'></script>
+    <script src='/js/respond.min.js'></script>
+  <![endif]-->
+  <link rel='stylesheet' href='/css/bootstrap.css' />
+  <link rel='stylesheet' href='/style.css' />
+  <title>To-Do List</title>
+</head>
+<body>
+
+
+  <div class="container text-center">
+
+    <div class="row bg-danger py-3 align-items-center rounded-top" >
+      <div class="col-11 px-1 rounded">
+        <input class='add-task border rounded' type="text" placeholder='Add New Task...'>
+      </div>
+
+      <div class="col-1 px-1 rounded">
+        <button id='plus' class="btn btn-lg btn-warning rounded-circle">+</button>
+    </div>
+  </div>
+
+
+    <div class="row">
+      <div class="col  bg-success">
+        <ul id='new-Tasks' >
+          <li id='addTask' class='newTask bg-white border rounded my-3'></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="row ">
+      <div class="col bg-warning border border-dark">
+        tasks 
+        <span id='tasks-numb'>0</span>
+      </div>
+      
+      <div class="col bg-warning border border-dark rounded-bottom ">
+        complited
+        <span id='complited-tasks'>0</span>
+      </div>
+    </div>
+  </div>
+
+
+<script src='/main.js'></script>
+</body>
+</html>
