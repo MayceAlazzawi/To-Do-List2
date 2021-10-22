@@ -4,14 +4,37 @@
 
 .add-task {
   width: 100%;
-  
 }
 
-.new-Tasks {
-  height: 25px;
+ul li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px;
+margin: 5px;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.delete {
+  background-color: aqua;
+  padding: 5px;
+}
+
+.delete:hover {
+  background-color: rgb(92, 81, 88);
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.finished {
+  text-decoration: line-through;
 }
 
 #plus {
   font-size: 30px;
-  
 }

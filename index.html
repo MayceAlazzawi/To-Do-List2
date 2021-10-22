@@ -18,7 +18,7 @@
 
     <div class="row bg-danger py-3 align-items-center rounded-top" >
       <div class="col-11 px-1 rounded">
-        <input class='add-task border rounded' type="text" placeholder='Add New Task...'>
+        <input type="text" class='add-task border rounded' id="inputValue" placeholder='Add New Task...'>
       </div>
 
       <div class="col-1 px-1 rounded">
@@ -26,13 +26,11 @@
     </div>
   </div>
 
-    <div class="row">
-      <div class="col  bg-success">
-        <ul id='new-Tasks' >
-          <li id='addTask' class='newTask bg-white border rounded my-3'></li>
+    <div  id='box' class="row bg-success">
+        <ul id='ul' class="list-group">
         </ul>
+
       </div>
-    </div>
 
     <div class="row ">
       <div class="col bg-warning border border-dark">
@@ -46,7 +44,7 @@
       </div>
     </div>
   </div>
-
+  
 <script src='/main.js'></script>
 </body>
 </html>
