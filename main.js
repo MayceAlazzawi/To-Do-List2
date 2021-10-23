@@ -7,6 +7,8 @@ let complitedTasksCountBlok = document.getElementById('complited-tasks');
 let tasksCount = 0;
 let complitedTasksCount = 0;
 
+window.onload = inputValue.focus();    
+
 addButton.onclick= function getInputValue() {
   let inputValue = document.getElementById("inputValue").value;
   if (inputValue === '') {

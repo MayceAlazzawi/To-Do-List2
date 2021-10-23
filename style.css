@@ -31,6 +31,12 @@ ul li:nth-child(odd) {
   cursor: pointer;
 }
 
+.task {
+  width:100%;
+  text-align-last: left;
+  height: 100%;
+}
+
 .finished {
   text-decoration: line-through;
 }
